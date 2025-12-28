@@ -56,4 +56,4 @@ System.out.println("Root2:"+realPart+"-"+imaginaryPart+"i");
 }
 ```
 # output
-![output of quadratic equation](exp1b.PNG)
+![output of quadratic equation](exp1b.png)
