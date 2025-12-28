@@ -18,6 +18,6 @@
        System.out.println("Default value of boolean:"+dDpt.primBoolean);
        }
       }
-```+-*
+```
 # OUTPUT
 ![output of primitive datatypes](exp1a.PNG)
