@@ -1,4 +1,4 @@
-# EXPERIMENT 1
+# EXPERIMENT 
 ## TITLE : 1a.) Display primitive datatypes
 ```
  class DefaultPrimitiveType {
@@ -57,3 +57,59 @@ System.out.println("Root2:"+realPart+"-"+imaginaryPart+"i");
 ```
 # output
 ![output of quadratic equation](exp1b.png)
+## title : additional exp2
+```
+  class Fibonacis {
+    int firstNumber;
+    int secondNumber;
+    int thirdNumber;
+    int sum;
+    int sizeofFibSequence;
+     Fibonacis(int size){
+        firstNumber=0;
+        secondNumber=1;
+        thirdNumber=0;
+        sum=0;
+        sizeofFibSequence=size;
+      }
+        void genarateFibSequence(){
+         while(sizeofFibSequence>0){
+          if(sizeofFibSequence==1)
+        System.out.println(firstNumber+".");
+        else
+        System.out.println(firstNumber+",");
+         sizeofFibSequence--;
+          sum+=firstNumber;
+          thirdNumber = firstNumber + secondNumber;
+          firstNumber = secondNumber;
+          secondNumber = thirdNumber;
+         }
+       }
+             int getFibsum(){
+                if(sum > 0)
+                 return sum;
+                   else
+                   generateSequence();
+                return sum;
+          }
+       }
+ import java.util.Scanner;
+  class main {
+   public static void main(String args[]){
+    System.out.print("Enter the size of the fib sequence");
+    Scanner sc = new Scanner(System.in);
+     int size = sc.nextInt();
+      if(size > 0) {
+        Fibonacis fib = new Fibonacis(size);
+        System.out.print("Fibonacis series are");
+        fib.genarateFibsequence();
+        System.out.println("The sum of the Fibonacis series are:"+fib.getFibsum());
+     }
+      else
+        System.out.println("Fibonacis sequence and sum cannot be calculate");
+    }
+  }
+
+```
+## output:
+![output of fibonacis series](
