@@ -112,4 +112,4 @@ System.out.println("Root2:"+realPart+"-"+imaginaryPart+"i");
 
 ```
 ## output:
-![output of fibonacis series](
+![output of fibonacis series](https://github.com/yasmitha123/javalab-cse-g/blob/5e4a32d7a2b1e6a2646dbb223dc3c54d71be86f8/experiment1/Screenshot%202026-01-06%20041116.png)
