@@ -83,7 +83,7 @@ class main {
  }
 ```
 # output
-![output of rectangle](exp2a.PNG)
+![output of rectangle](exp2a.png)
 ## title : additional exp2
 ```
   class Fibonacis {
