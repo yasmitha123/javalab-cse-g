@@ -84,6 +84,62 @@ class main {
 ```
 # output
 ![output of rectangle](exp2a.png)
+## title : 2b.)sum
+```
+ class sum {
+ int sum(int a,int b){
+    return a+b;
+   }
+ int sum(int a,int b,int c){
+    return a+b+c;
+  }
+ double sum(double a,double b){
+    return a+b;
+  }
+ }
+
+ class main {
+  public static void main(String args[]){
+       sum s = new sum();
+   System.out.println("sum of 2 integer:"+s.sum(32,45));
+   System.out.println("sum of 3 integer:"+s.sum(20,32,45));
+   System.out.println("sum of two real number:"+s.sum(45-56,86-34));
+   }
+  }
+
+```
+# output
+![output of sum](exp2b.png)
+
+## title : 2c.)student
+```
+ class student {
+   String sname;
+   int sage;
+   double smarks;
+   student(String name,int age,double marks){
+   sname = name;
+   sage = age;
+   smarks = marks;
+  }
+   void display(){
+  System.out.println("student name:"+sname);
+  System.out.println("student age:"+sage);
+  System.out.println("student marks:"+smarks);
+  }
+ }
+
+ class main {
+ public static void main(String args[]){
+ student s = new student("yasmi",19,980);
+ s.display();
+ }
+}
+
+```
+#output
+![output of student](exp2c.png)
+
 ## title : additional exp2
 ```
   class Fibonacis {
