@@ -81,7 +81,10 @@ class main {
   System.out.println("perimeter of the given rectangle:"+perimeter);
   }
  }
-
+```
+# output
+![output of rectangle](exp2a.PNG)
+## title : additional exp2
 ```
   class Fibonacis {
     int firstNumber;
