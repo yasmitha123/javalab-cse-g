@@ -57,7 +57,31 @@ System.out.println("Root2:"+realPart+"-"+imaginaryPart+"i");
 ```
 # output
 ![output of quadratic equation](exp1b.png)
-## title : additional exp2
+## title : 2a.) rectangle
+```
+class Rectangle {
+   double length;
+  double breadth;
+   double area() {
+    return length * breadth;
+    }
+   double perimeter (){
+    return 2 *(length + breadth);
+    }
+   }
+
+class main {
+ public static void main(String args[]){
+ Rectangle rect = new Rectangle();
+          rect.length=10;
+          rect.breadth=5;
+      double area = rect.area();
+      double perimeter = rect.perimeter();
+  System.out.println("area of the given rectangle:"+area);
+  System.out.println("perimeter of the given rectangle:"+perimeter);
+  }
+ }
+
 ```
   class Fibonacis {
     int firstNumber;
