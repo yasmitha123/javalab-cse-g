@@ -1,5 +1,5 @@
 # Expriment 4a
-## Tittle : 4a). single inheritance
+## Tittle : 4a). single inheritance in java
 ```
  class persion {
   String name;
