@@ -97,7 +97,7 @@ public class TestVehicle {
 }
 ```
 #output
-![output of vehicle](exp5b.png)
+![output of vehicle](exp5b.jpeg)
 ## tittle : 5c) delete
 ```
  class StringBufferDelete {
