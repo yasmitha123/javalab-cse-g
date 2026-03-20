@@ -133,4 +133,4 @@ public class EcommerceCart {
 }
 ```
 # output
-![output of miniproject](mini.png)
+![output of miniproject](mini.jpeg)
