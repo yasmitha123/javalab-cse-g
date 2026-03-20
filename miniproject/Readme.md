@@ -134,8 +134,8 @@ public class EcommerceCart {
 ```
 # output
 ![output of miniproject](mini1.jpeg)
-![output of miniproject](mini2.png)
-![output of miniproject](mini3.png)
-![output of miniproject](mini4.png)
-![output of miniproject](mini5.png)
-![output of miniproject](mini6.png)
+![output of miniproject](mini2.jpeg)
+![output of miniproject](mini3.jpeg)
+![output of miniproject](mini4.jpeg)
+![output of miniproject](mini5.jpeg)
+![output of miniproject](mini6.jpeg)
